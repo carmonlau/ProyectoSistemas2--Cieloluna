@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags For Seo + Page Optimization -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Page Title -->
+    <title>Mi luna Cielo</title>
+    <!-- Favicon -->
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="{{ asset('vendor/css/bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/css/jquery.fancybox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/css/swiper.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/css/cubeportfolio.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/css/wow.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/css/LineIcons.min.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('book-shop/css/nouislider.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('book-shop/css/range-slider.css') }}">
+    <link rel="stylesheet" href="{{ asset('book-shop/css/settings.css') }}">
+    <link rel="stylesheet" href="{{ asset('book-shop/css/megamenu.css') }}">
+    <link rel="stylesheet" href="{{ asset('book-shop/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('book-shop/css/custom.css') }}">
+
+
+
+</head>
+<body>
+
+<a class="scroll-top-arrow" href="javascript:void(0);"><i class="fa fa-angle-up"></i></a>
+
+<!--LOADER-->
+<div class="loader">
+    <div class="loader-spinner"></div>
+</div>
+<!--LOADER-->
+
+<!-- START HEADER NAVIGATION -->
+<div class="header-area">
+    <div class="container">
+        <div class="row upper-nav">
+            <div class=" text-left nav-logo">
+                <a href="index-book-shop.html" class="navbar-brand"><img src="book-shop/img/logo.png" alt="img" style="display: none;"></a>
+            </div>
+            <div class="ml-auto nav-mega d-flex justify-content-end align-items-center">
+                <header class="site-header" id="header">
+                    <nav class="navbar navbar-expand-md  static-nav">
+                        <div class="container position-relative megamenu-custom">
+                            <a class="navbar-brand center-brand" href="index-book-shop.html">
+                                <img src="book-shop/img/logo.png" alt="logo" class="logo-scrolled">
+                            </a>
+                            <div class="collapse navbar-collapse">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index-book-shop.html">COTIZAR</a>
+                                    </li>
+                                    <li class="nav-item dropdown static">
+                                        <a class="nav-link dropdown-toggle active" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TARJETERIA</a>
+                                        <ul class="dropdown-menu megamenu flexable-megamenu">
+                                            <li>
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-lg-3 col-md-6 col-sm-12 mengmenu_border">
+                                                            <h5 class="dropdown-title"> Most Wanted </h5>
+                                                            <ul>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Love Does</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">No One Belongs</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">As I Lay Dying</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Life is Elsewhere</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">The Road</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Why Me?</a></li>
+                                                            </ul>
+                                                       
+                                                        </div>
+                                                        <div class="col-lg-3 col-md-6 col-sm-12 mengmenu_border">
+                                                            <h5 class="dropdown-title"> NOVEL's </h5>
+                                                            <ul>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Romance</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Fantasy</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Thrillers</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Science Fiction</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Historical Fiction</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Others</a></li>
+                                                            </ul>
+
+                                                           
+
+                                                        </div>
+
+                                                        
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown static">
+                                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CARTELES</a>
+                                        <ul class="dropdown-menu megamenu flexable-megamenu">
+                                            <li>
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-lg-3 col-md-6 col-sm-12 mengmenu_border">
+                                                            <h5 class="dropdown-title bottom10"> Categories </h5>
+
+                                                            <ul>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Art</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Autobiography</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Biography</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Chick lit</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Anthology</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Coming-of-age</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Drama</a></li>
+
+                                                            </ul>
+
+                                                        </div>
+                                                        <div class="col-lg-3 col-md-6 col-sm-12 mengmenu_border">
+                                                            <h5 class="dropdown-title opacity-10"> Others </h5>
+                                                            <ul>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Crime</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i> <a class="dropdown-item" href="book-shop/product-listing.html">Dictionary</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i> <a class="dropdown-item" href="book-shop/product-listing.html">Health</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">History</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Journal
+                                                                </a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Horror</a></li>
+                                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Poetry</a></li>
+                                                            </ul>
+
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown position-relative">
+                                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FOLLETOS</a>
+                                        <div class="dropdown-menu">
+                                            <ul>
+                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-listing.html">Listing One</a></li>
+                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/product-detail.html">Detail Page</a></li>
+                                                <li><i class="lni-angle-double-right right-arrow"></i><a class="dropdown-item" href="book-shop/shop-cart.html.html">ShopCart Page</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="btn btn-primary nav-link no-text-gradient" style="background-color: #f11550; border: none; color:#FFFFFF;" href="#">REGISTRATE</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <!-- side menu -->
+                    <div class="side-menu opacity-0 gradient-bg hidden">
+                        <div class="inner-wrapper">
+                            <span class="btn-close btn-close-no-padding" id="btn_sideNavClose"><i></i><i></i></span>
+                            <nav class="side-nav w-100">
+                                <ul class="navbar-nav">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="book-shop/product-listing.html"> HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="#sideNavPages1">
+                                            BOOKS <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div id="sideNavPages1" class="collapse sideNavPages">
+
+                                            <ul class="navbar-nav mt-2">
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Love Does</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">No One Belongs</a></li>
+                                                <li class="nav-item" ><a class="nav-link" href="book-shop/product-listing.html">As I Lay Dying</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Life is Elsewhere</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">The Road</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Why Me?</a></li>
+                                            </ul>
+                                            <h5 class="sub-title">1. Classic</h5>
+                                            <ul class="navbar-nav mt-2">
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Lorna Doone</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Lord of Flies</a></li>
+                                                <li class="nav-item" ><a class="nav-link" href="book-shop/product-listing.html">Kidnapped</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">End World</a></li>
+                                            </ul>
+
+                                            <h5 class="sub-title">2. Novel's</h5>
+                                            <ul class="navbar-nav mt-2">
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Romance</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Fantasy</a></li>
+                                                <li class="nav-item" ><a class="nav-link" href="book-shop/product-listing.html">Thrillers</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Historical Fiction</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Others</a></li>
+                                            </ul>
+
+                                            <h5 class="sub-title">3. History</h5>
+                                            <ul class="navbar-nav mt-2">
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Creative Thinking</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Historical Fiction</a></li>
+                                                <li class="nav-item" ><a class="nav-link" href="book-shop/product-listing.html">Creative Thinking</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Personal Finance</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="#sideNavPages3">
+                                            E-BOOKS <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div id="sideNavPages3" class="collapse sideNavPages">
+                                            <ul class="navbar-nav mt-2">
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Art</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Autobiography</a></li>
+                                                <li class="nav-item" ><a class="nav-link" href="book-shop/product-listing.html">Biography</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Chick lit</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Coming-of-age</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Anthology</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Drama</a></li>
+                                            </ul>
+                                            <h5 class="sub-title">1. Others</h5>
+                                            <ul class="navbar-nav mt-2">
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Crime</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html"> Dictionary</a></li>
+                                                <li class="nav-item" ><a class="nav-link" href="book-shop/product-listing.html"> Health</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">History</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Horror</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="book-shop/product-listing.html">Poetry</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="#sideNavPages2">
+                                            PAGES <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div id="sideNavPages2" class="collapse sideNavPages">
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="book-shop/product-listing.html">Listing One</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="book-shop/product-detail.html">Detail Page</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="book-shop/shop-cart.html">ShopCart Page</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="side-footer w-100">
+                                <ul class="social-icons-simple white top40">
+                                    <li><a class="facebook-bg-hvr"  href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                                    <li><a class="twitter-bg-hvr" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                                    <li><a class="instagram-bg-hvr" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="close_side_menu" class="tooltip"></div>
+                    <!-- End side menu -->
+                </header>
+                <div class="nav-utility">
+                    <div class="manage-icons d-inline-block">
+                        <ul class="d-flex justify-content-center align-items-center">
+                            <li class="d-inline-block">
+                                <a id="add_search_box">
+                                    <i class="lni lni-search search-sidebar-hover"></i>
+                                </a>
+                            </li>
+                            <li class="d-inline-block mini-menu-card">
+                                <a class="nav-link" id="add_cart_box"  href="javascript:void(0)">
+                                    <i class="lni lni-shopping-basket"></i>
+                                </a>
+                            </li>
+                            <a href="javascript:void(0)" class="d-inline-block sidemenu_btn d-block" id="sidemenu_toggle">
+                                <i class="lni lni-menu"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- END HEADER NAVIGATION -->
+
+<!--BANNER START-->
+<div class="homer-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center text-center text-lg-left">
+                <div class="banner-description">
+                    <h1 class="w-sm-100 w-md-100 w-lg-25 animated fadeInLeft delay-1s">LOS DETALLES HACEN LA DIFERENCIA <span>Y NOSOTROS SOMOS</span> EXPERTOS</h1>
+                    <a href="book-shop/product-listing.html" class="btn animated fadeInLeft delay-1s">COMPRA AHORA</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--BANNER END-->
+
+
+    <div class="container py-5">
+        <div class="row g-4">
+            {{-- Imagen ampliada y alineada --}}
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <img src="{{ asset('storage/' . $producto->imagen) }}" alt="{{ $producto->nombre }}" class="img-fluid rounded shadow" style="height: auto; width:450px">
+            </div>
+
+            {{-- Sección de personalización --}}
+            <div class="col-md-6">
+                <div class="card border-light">
+                    <div class="card-body">
+                        <h2 class="card-title text-left">{{ $producto->nombre }} <small class="text-muted">({{ $producto->category->nombre }})</small></h2>
+                        <h4 class="text-danger fw-bold mb-4">TOTAL: Bs{{ number_format($producto->precio, 2) }}</h4>
+                        
+                        <form class="needs-validation" novalidate>
+    {{-- Selectores de personalización --}}
+    <div class="mb-3">
+        <label for="tamano" class="form-label"><i class="bi bi-arrows-fullscreen me-2"></i>Tamaño</label>
+        <select class="form-select form-select-lg w-100 rounded" id="tamano" required>
+            <option selected disabled>Seleccione tamaño</option>
+            <option>9 x 5.5 cm</option>
+            <option>10 x 7 cm</option>
+        </select>
+    </div>
+    
+    <div class="mb-3">
+        <label for="cantidad" class="form-label"><i class="bi bi-123 me-2"></i>Cantidad</label>
+        <select class="form-select form-select-lg w-100 rounded" id="cantidad" required>
+            <option selected disabled>Seleccione cantidad</option>
+            <option>100</option>
+            <option>200</option>
+            <option>300</option>
+        </select>
+    </div>
+    
+    <div class="mb-3">
+        <label for="papel" class="form-label"><i class="bi bi-file-earmark-text me-2"></i>Tipo de papel</label>
+        <select class="form-select form-select-lg w-100 rounded" id="papel" required>
+            <option selected disabled>Seleccione papel</option>
+            <option>Couche 300gr</option>
+        </select>
+    </div>
+    
+    <div class="mb-3">
+        <label for="lados" class="form-label"><i class="bi bi-layers me-2"></i>Lados</label>
+        <select class="form-select form-select-lg w-100 rounded" id="lados" required>
+            <option selected disabled>Seleccione lados</option>
+            <option>Una cara</option>
+            <option>Dos caras</option>
+        </select>
+    </div>
+    
+    <div class="mb-4">
+        <label for="produccion" class="form-label"><i class="bi bi-clock me-2"></i>Tiempo de producción</label>
+        <select class="form-select form-select-lg w-100 rounded" id="produccion" required>
+            <option selected disabled>Seleccione tiempo</option>
+            <option>Estándar, 3 a 5 días hábiles</option>
+            <option>Express, 1 a 2 días hábiles (+15%)</option>
+        </select>
+    </div>
+</form>
+
+                    {{-- Botones secundarios --}}
+                    <div class="d-flex flex-column gap-6">
+    <button class="btn btn-outline-danger py-3 mb-3">
+        <i class="fas fa-upload fa-2x me-2"></i> Subir Diseño
+    </button>
+    <button class="btn btn-outline-danger py-3 mb-3">
+        <i class="fas fa-paint-brush fa-2x me-2"></i> Diseñar Online
+    </button>
+    <button class="btn btn-outline-danger py-3 mb-3">
+        <i class="fas fa-file-alt fa-2x me-2"></i> Diseños de Plantillas
+    </button>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Pestañas de información --}}
+    <div class="mt-5">
+        <ul class="nav nav-tabs" id="productTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button" role="tab">
+                    <i class="bi bi-info-circle me-2"></i>Descripción
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="precio-tab" data-bs-toggle="tab" data-bs-target="#precio" type="button" role="tab">
+                    <i class="bi bi-tag me-2"></i>Precio Detalles
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="plantillas-tab" data-bs-toggle="tab" data-bs-target="#plantillas" type="button" role="tab">
+                    <i class="bi bi-file-earmark-image me-2"></i>Plantillas
+                </button>
+            </li>
+        </ul>
+        
+        <div class="tab-content p-4 border border-top-0 rounded-bottom shadow-sm">
+            <div class="tab-pane fade show active" id="desc" role="tabpanel">
+                <h5 class="mb-3">Características del producto</h5>
+                <ul class="list-group list-group-flush" style="line-height: 1.1px;">
+                    <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success me-2"></i>· Cantidad mínima: 100 unidades</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success me-2"></i>· Alta calidad a todo color</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success me-2"></i>· Acabado semibrillante</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success me-2"></i>· Plantillas personalizables</li>
+                    <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success me-2"></i>· Envío estándar incluido</li>
+                </ul>
+            </div>
+            
+            <div class="tab-pane fade" id="precio" role="tabpanel">
+                <h5 class="mb-3">Detalles de precios</h5>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Cantidad</th>
+                                <th>Precio Unitario</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>100</td>
+                                <td>BS{{ number_format($producto->precio/100, 2) }}</td>
+                                <td>BS{{ number_format($producto->precio, 2) }}</td>
+                            </tr>
+                            <tr>
+                                <td>250</td>
+                                <td>BS{{ number_format(($producto->precio*0.9)/250, 2) }}</td>
+                                <td>BS{{ number_format($producto->precio*0.9, 2) }}</td>
+                            </tr>
+                            <tr>
+                                <td>500</td>
+                                <td>BS{{ number_format(($producto->precio*0.8)/500, 2) }}</td>
+                                <td>BS{{ number_format($producto->precio*0.8, 2) }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="tab-pane fade" id="plantillas" role="tabpanel">
+                <h5 class="mb-3">Plantillas disponibles</h5>
+                <div class="alert alert-info">
+                    <i class="bi bi-info-circle-fill me-2"></i>Esta funcionalidad estará disponible próximamente.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--footer1 sec start-->
+<div class="footer">
+    <div class="container">
+        <div class="row footer-container">
+            <div class="col-sm-12 col-lg-4 f-sec1  text-center text-lg-left">
+                <h4 class="high-lighted-heading" style="text-transform: uppercase;">Mi Luna Cielo</h4>
+                <p>descripcion</p>
+                <h4>Nuestras Redes</h4>
+                <div class="s-icons">
+                    <ul class="social-icons-simple">
+                        <li><a href="javascript:void(0)" class="facebook-bg-hvr"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                        <li><a href="javascript:void(0)" class="twitter-bg-hvr"><i class="fab fa-twitter" aria-hidden="true"></i></a> </li>
+                        <li><a href="javascript:void(0)" class="instagram-bg-hvr"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-5 f-sec2 ">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-center text-md-left">Productos</h4>
+                        <ul class="text-center text-md-left">
+                            <li><a href="javascript:void(0)">Tarjetas de Visita</a></li>
+                            <li><a href="javascript:void(0)">Trípticos</a></li>
+                            <li><a href="javascript:void(0)">Sobres</a></li>
+                            <li><a href="javascript:void(0)">Boligrafos</a></li>
+                            <li><a href="javascript:void(0)">Invitaciones</a></li>
+                     
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-center text-md-left">Categorias</h4>
+                        <ul class="text-center text-md-left">
+                            <li><a href="javascript:void(0)">Agendas</a></li>
+                            <li><a href="#">Tazas</a></li>
+                            <li><a href="javascript:void(0)">Stickers</a></li>
+                            <li><a href="javascript:void(0)">Afiches</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-sm-12 col-lg-3 f-sec3  text-center text-lg-left">
+                <h4>Our Portfolio</h4>
+                <div class="foot-tag-list">
+                    <span>Classic</span>
+                    <span>Journal</span>
+                    <span>History</span>
+                    <span>Poetry</span>
+                    <span>Dictionary</span>
+                    <span>Shopping</span>
+                    <span>Fantasy</span>
+                </div>
+            </div>-->
+        </div>
+        <div class="row">
+            <div class="col-12 footer_notes">
+                <p class="whitecolor text-center w-100 wow fadeInDown">&copy; 2025 Imprenta <a class="web-link" href="#" target="_blank"></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--foo0ter1 sec end-->
+
+</div>
+<!--END Cart Box -->
+
+<script src="{{ asset('vendor/js/bundle.min.js') }}"></script>
+<script src="{{ asset('vendor/js/jquery.fancybox.min.js') }}"></script>
+<script src="{{ asset('vendor/js/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('vendor/js/swiper.min.js') }}"></script>
+<script src="{{ asset('vendor/js/jquery.cubeportfolio.min.js') }}"></script>
+<script src="{{ asset('vendor/js/wow.min.js') }}"></script>
+<script src="{{ asset('vendor/js/bootstrap-input-spinner.js') }}"></script>
+<script src="{{ asset('vendor/js/parallaxie.min.js') }}"></script>
+<script src="{{ asset('vendor/js/stickyfill.min.js') }}"></script>
+
+<script src="{{ asset('book-shop/js/nouislider.min.js') }}"></script>
+<script src="{{ asset('vendor/js/jquery.themepunch.tools.min.js') }}"></script>
+<script src="{{ asset('vendor/js/jquery.themepunch.revolution.min.js') }}"></script>
+
+<!-- SLIDER REVOLUTION EXTENSIONS -->
+<script src="{{ asset('vendor/js/extensions/revolution.extension.actions.min.js') }}"></script>
+<script src="{{ asset('vendor/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+<script src="{{ asset('vendor/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+<script src="{{ asset('vendor/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+<script src="{{ asset('vendor/js/extensions/revolution.extension.migration.min.js') }}"></script>
+<script src="{{ asset('vendor/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+<script src="{{ asset('vendor/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+<script src="{{ asset('vendor/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+<script src="{{ asset('vendor/js/extensions/revolution.extension.video.min.js') }}"></script>
+
+<script src="{{ asset('book-shop/js/script.js') }}"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

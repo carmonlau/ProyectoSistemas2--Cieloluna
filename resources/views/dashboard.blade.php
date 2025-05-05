@@ -12,15 +12,15 @@
         </div>
         <div class="dashboard-card">
             <i class="fas fa-cogs"></i>
-            <h5>Configuración</h5>
+            <h5>seccion2</h5>
         </div>
         <div class="dashboard-card">
             <i class="fas fa-calendar-alt"></i>
-            <h5>Eventos</h5>
+            <h5>seccion3</h5>
         </div>
         <div class="dashboard-card">
             <i class="fas fa-chart-line"></i>
-            <h5>Reportes</h5>
+            <h5>seccion4</h5>
         </div>
         <div class="dashboard-card">
             <i class="fas fa-box"></i>
@@ -28,11 +28,11 @@
         </div>
         <div class="dashboard-card">
             <i class="fas fa-comments"></i>
-            <h5>Mensajes</h5>
+            <h5>seccion5</h5>
         </div>
         <div class="dashboard-card">
             <i class="fas fa-bell"></i>
-            <h5>Notificaciones</h5>
+            <h5>seccion6</h5>
         </div>
     </div>
 @endsection

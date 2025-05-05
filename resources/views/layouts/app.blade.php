@@ -22,7 +22,7 @@
 
         /* Sidebar */
         .sidebar {
-            background-color: #4caf50;
+            background-color: #C41242;
             color: white;
             width: 250px;
             height: 100%;
@@ -50,13 +50,15 @@
         }
 
         .sidebar a:hover {
-            background-color: #45a049;
+            background-color: #a81c42;
         }
 
         .sidebar h3 {
             text-align: center;
             color: white;
             margin-bottom: 40px;
+            font-weight: 600;
+            font-family: 'Roboto', sans-serif;
         }
 
         /* Contenido principal */
@@ -84,12 +86,12 @@
 
         .welcome-card h3 {
             margin-bottom: 20px;
-            color: #4caf50;
+            color: #C41242;
         }
 
         /* Botón OK */
         .btn-ok {
-            background-color: #4caf50;
+            background-color: #a81c42;
             border: none;
             color: white;
             padding: 12px 24px;
@@ -136,7 +138,7 @@
 
         .dashboard-card i {
             font-size: 40px;
-            background: linear-gradient(to right, #0097B2, #7ED957);
+            background: linear-gradient(to right, #C41242, #f6104e);
             -webkit-background-clip: text;
             color: transparent;
             margin-bottom: 10px;
@@ -154,7 +156,7 @@
             right: 20px;
             background-color: transparent;
             border: none;
-            color: #dc3545;
+            color: #f6104e;
             font-size: 24px;
             cursor: pointer;
         }
@@ -181,17 +183,17 @@
 
         .inactive-card h3 {
             margin-bottom: 20px;
-            color: #ff2f2f;
+            color: #9F2449;
             font-size: 18px;
             font-weight: 500;
         }
 
         .inactive-card .btn-ok {
-            background-color: #ff2f2f;
+            background-color: #C41242;
         }
 
         .inactive-card .btn-ok:hover {
-            background-color: #c0392b;
+            background-color: #f6104e;
         }
     </style>
 </head>
@@ -199,14 +201,14 @@
 
 <!-- Sidebar -->
 <div class="sidebar">
-    <h3>Dashboard</h3>
-    <a href="#"><i class="fas fa-home"></i>Inicio</a>
+    <h3>Mi Luna Cielo</h3>
+    <a href="{{ route('dashboard') }}"><i class="fas fa-home"></i>Inicio</a>
     <a href="{{ route('usuarios.create') }}"><i class="fas fa-users"></i>Usuarios</a>
-    <a href="#"><i class="fas fa-cogs"></i>Configuración</a>
-    <a href="#"><i class="fas fa-calendar-alt"></i>Eventos</a>
-    <a href="#"><i class="fas fa-chart-line"></i>Reportes</a>
-    <a href="#"><i class="fas fa-box"></i>Inventario</a>
-    <a href="#"><i class="fas fa-comments"></i>Mensajes</a>
+    <a href="{{ route('products.create') }}"><i class="fas fa-cogs"></i>Productos</a>
+    <a href="{{ route('categories.create') }}"><i class="fas fa-calendar-alt"></i>Categorias</a>
+    <a href="{{ route('plantillas.create') }}"><i class="fas fa-chart-line"></i>Plantillas</a>
+    <a href="{{ route('inventario.index') }}"><i class="fas fa-box"></i>Inventario</a>
+    <a href="#"><i class="fas fa-comments"></i>seccion5</a>
 </div>
 
 <!-- Contenido Principal -->
@@ -254,6 +256,11 @@
 </div>
 
 <!-- Scripts -->
+ <!-- Scripts de Bootstrap y jQuery (si no están añadidos ya) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 <script>
