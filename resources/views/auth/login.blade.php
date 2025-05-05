@@ -126,7 +126,7 @@
             transform: translateY(-50%);
             cursor: pointer;
             font-size: 18px; /* Ajusta el tamaño del icono */
-            color: #0097B2; /* Color verde degradado */
+            color: #8f8e8e; /* Color verde degradado */
             transition: color 0.3s ease-in-out; /* Suaviza el cambio de color del ojo */
         }
 
